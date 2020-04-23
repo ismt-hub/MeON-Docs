@@ -16,4 +16,6 @@
 Чет
 ---
 
-
+.. image:: ../_static/img/Posta/posta1.png
+   :width: 600
+   :align: center
