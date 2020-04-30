@@ -1,0 +1,4 @@
+site_name: MeON
+pages: 
+- [index.md, Home]
+theme: yeti
