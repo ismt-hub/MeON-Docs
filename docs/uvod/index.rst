@@ -8,5 +8,5 @@ MeON апликација је намењена евиденцији, праће
 .. toctree::
    :maxdepth: 1  
 
-   uvod.rst
+   koncept.rst
    
