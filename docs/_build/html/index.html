@@ -34,7 +34,8 @@
   <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="search.html" /> 
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Кратак преглед" href="uvod/index.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -78,14 +79,12 @@
               
             
             
-              <!-- Local TOC -->
-              <div class="local-toc"><ul>
-<li><a class="reference internal" href="#">Добродошли у MeON!</a></li>
-<li><a class="reference internal" href="#id1">Увод</a></li>
-<li><a class="reference internal" href="#id2">Концепт</a></li>
-<li><a class="reference internal" href="#id3">Коришћење</a></li>
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="uvod/index.html">Кратак преглед</a></li>
+<li class="toctree-l1"><a class="reference internal" href="prirucnik/index.html">MeON Приручник</a></li>
+<li class="toctree-l1"><a class="reference internal" href="uputstva/index.html">Упутства за коринсике</a></li>
 </ul>
-</div>
+
             
           
         </div>
@@ -151,31 +150,12 @@
   <div class="section" id="meon">
 <h1>Добродошли у MeON!<a class="headerlink" href="#meon" title="Permalink to this headline">¶</a></h1>
 <p>Добродошли у документацију MeON апликације. У наредним поглављима објаснићемо концепт поменуте апликације, њене функционалности и рад у истој.</p>
-</div>
-<div class="section" id="id1">
-<h1>Увод<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
-<p>MeON апликација је намењена евиденцији, праћењу и контроли процеса у области јавних набавки. Под процесом овде подразумевамо интерне и законске радње које се врше у фазама плана, поступка и реализације конкретне набавке.</p>
-<p>Како би вам што детаљније приближили функционалности саме апликације, објаснићемо пре свега основна начела на којима MeON почива.</p>
-</div>
-<div class="section" id="id2">
-<h1>Концепт<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h1>
-<a class="reference internal image-reference" href="_images/nab_dok.png"><img alt="_images/nab_dok.png" src="_images/nab_dok.png" style="width: 600px;" /></a>
-<p>Када погледамо набавку кроз фазе И призму докумената видимо скуп докумената који настају у сваким од фазама процеса. Неки су јединствени, неки се понављају, неки су измене основних докумената итд. Ова документа су законски неопходна, наравно у зависности од типа, врсте набавке и врсте поступка набавке. Поред ових докумената, потреба је корисника да евидентирају и неке друге документе или информације везане за интерну организацију.</p>
-<a class="reference internal image-reference" href="_images/nab_hijer.png"><img alt="_images/nab_hijer.png" src="_images/nab_hijer.png" style="width: 600px;" /></a>
-<p>Када се сви документи заједно са набавком групиши по хијерархији, добијамо скуп ентитета у одређеним релацијама (као на слици). Ово представља модел по коме МеОН апликација ради (објаснићу). Тако овде имамо набавку као главни ентитет, са одређеним атрибутима које евидентитамо и пратимо. Даље, испод имамо разне типове докумената (одлуке, обавештења, позиве, питања, конкурсну документацију, уговоре и фактуре). Сви ови ентитети имају сопствене атрибуте који се евидентирају и прате. Зашто је овај модел битан? Зато што се на основу ових веза и атрибута покрива целокупан процес процес у конкретном предузећу. Цела апликација је ограничена Моделом. Видећете да су сви менији дефинисани на основу дефиниције ентитета, гридови на основу поља итд… Ентитети, везе и атрибути су потпуно конфигурабилни. У преводу ово значи да можемо лако додавати нове атрибуте уколико се за то показе потреба, дефинисати нови статус итд…Типове података који се евидентирају ћу детаљно објаснити касније.</p>
-<p>Друга страна медаље је да модел као такав мора бити потврдјен да ради и покрива потребе корисника. Моја екипа и ја смо развили овај модел на основу закона и искуства које смо стицали паралелно са развојем апликације у сарадњи са некима од вас. Свака помоћ око оцене модела је добродошла поготово од стране људи који су у овом послу дуго времена.</p>
-</div>
-<div class="section" id="id3">
-<h1>Коришћење<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h1>
-<p>У овом поглављу ћемо се детаљно бавити коришћењем апликације. Поглавље смо поделили у 5 главних делова:</p>
-<ul class="simple">
-<li><p><a class="reference internal" href="navigacija.html#navigacija"><span class="std std-ref">Навигација</span></a></p></li>
-<li><p><a class="reference internal" href="evidencija.html#evidencija"><span class="std std-ref">Евиденција</span></a></p></li>
-<li><p><a class="reference internal" href="izvestaji.html#izvestaji"><span class="std std-ref">Извештаји</span></a></p></li>
-<li><p><a class="reference internal" href="kalendar.html#kalendar"><span class="std std-ref">Календар</span></a></p></li>
-<li><p><a class="reference internal" href="posta.html#posta"><span class="std std-ref">Пошта</span></a></p></li>
-</ul>
 <div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="uvod/index.html">Кратак преглед</a></li>
+<li class="toctree-l1"><a class="reference internal" href="prirucnik/index.html">MeON Приручник</a></li>
+<li class="toctree-l1"><a class="reference internal" href="uputstva/index.html">Упутства за коринсике</a></li>
+</ul>
 </div>
 </div>
 
@@ -184,6 +164,13 @@
            
           </div>
           <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="uvod/index.html" class="btn btn-neutral float-right" title="Кратак преглед" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+    </div>
   
 
   <hr/>
