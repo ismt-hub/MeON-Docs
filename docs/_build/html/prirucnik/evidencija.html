@@ -85,16 +85,22 @@
 <li class="toctree-l1 current"><a class="reference internal" href="index.html">MeON Приручник</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="navigacija.html">Навигација</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Евиденција</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id2">Листе</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#id3">Табела</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#id4">Претрага</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id2">Листе</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#basic-specification">Basic Specification</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#list">List</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#literal-blocks">Literal blocks:</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#block-quotes">Block quotes:</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#simple-table">Simple Table</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#citation">Citation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id6">Табела</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id7">Претрага</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#id5">Детаљи</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#id6">Типови поља</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#id7">Унос</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#id8">Измена</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#id9">Описи поља</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id8">Детаљи</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id9">Типови поља</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id10">Унос</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id11">Измена</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id12">Описи поља</a></li>
 </ul>
 </li>
 </ul>
@@ -175,31 +181,170 @@
 <span id="id1"></span><h1>Евиденција<a class="headerlink" href="#evidencija" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="id2">
 <h2>Листе<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
-<p>Текст о листама</p>
-<div class="section" id="id3">
-<h3>Табела<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Neque porro quisquam</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mattis commodo eros, quis posuere enim lobortis quis. Nullam ut tempus nibh.</p>
+</div>
+</div>
+<div class="section" id="basic-specification">
+<h2>Basic Specification<a class="headerlink" href="#basic-specification" title="Permalink to this headline">¶</a></h2>
+<p>Paragraphs contain text and may contain inline markup: <em>emphasis</em>, <strong>strong emphasis</strong>, <cite>interpreted text</cite>, <code class="docutils literal notranslate"><span class="pre">inline</span> <span class="pre">literals</span></code>, standalone hyperlinks (<a class="reference external" href="http://www.python.org">http://www.python.org</a>), external hyperlinks (<a class="reference external" href="http://www.python.org">Python</a>), internal cross-references (<a class="reference internal" href="#example">example</a>), footnote references (<a class="footnote-reference brackets" href="#id5" id="id3">1</a>), citation references (<a class="reference internal" href="#cit2002" id="id4"><span>[CIT2002]</span></a>), substitution references (), and <span class="target" id="inline-internal-targets">inline internal targets</span>.</p>
+<div class="section" id="list">
+<h3>List<a class="headerlink" href="#list" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="bullet-lists">
+<h4>Bullet lists:<a class="headerlink" href="#bullet-lists" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>This is a bullet list.</p></li>
+<li><p>Bullets can be “*”, “+”, or “-“.</p></li>
+</ul>
+</div>
+<div class="section" id="enumerated-lists">
+<h4>Enumerated lists:<a class="headerlink" href="#enumerated-lists" title="Permalink to this headline">¶</a></h4>
+<ol class="arabic simple">
+<li><p>This is an enumerated list.</p></li>
+<li><p>Enumerators may be arabic numbers, letters, or roman
+numerals.</p></li>
+</ol>
+</div>
+<div class="section" id="definition-lists">
+<h4>Definition lists:<a class="headerlink" href="#definition-lists" title="Permalink to this headline">¶</a></h4>
+<dl class="simple">
+<dt>what</dt><dd><p>Definition lists associate a term with a definition.</p>
+</dd>
+<dt>how</dt><dd><p>The term is a one-line phrase, and the definition is one
+or more paragraphs or body elements, indented relative to
+the term.</p>
+</dd>
+</dl>
+</div>
+<div class="section" id="field-lists">
+<h4>Field lists:<a class="headerlink" href="#field-lists" title="Permalink to this headline">¶</a></h4>
+<dl class="field-list">
+<dt class="field-odd">what</dt>
+<dd class="field-odd"><p>Field lists map field names to field bodies, like
+database records.  They are often part of an extension
+syntax.</p>
+</dd>
+<dt class="field-even">how</dt>
+<dd class="field-even"><p>The field marker is a colon, the field name, and a
+colon.</p>
+<p>The field body may contain one or more body elements,
+indented relative to the field marker.</p>
+</dd>
+</dl>
+</div>
+<div class="section" id="option-lists-for-listing-command-line-options">
+<h4>Option lists, for listing command-line options:<a class="headerlink" href="#option-lists-for-listing-command-line-options" title="Permalink to this headline">¶</a></h4>
+<dl class="option-list">
+<dt><kbd><span class="option">-a</span></kbd></dt>
+<dd><p>command-line option “a”</p>
+</dd>
+<dt><kbd><span class="option">-b <var>file</var></span></kbd></dt>
+<dd><p>options can have arguments
+and long descriptions</p>
+</dd>
+<dt><kbd><span class="option">--long</span></kbd></dt>
+<dd><p>options can be long also</p>
+</dd>
+<dt><kbd><span class="option">--input=<var>file</var></span></kbd></dt>
+<dd><p>long options can also have
+arguments</p>
+</dd>
+<dt><kbd><span class="option">/V</span></kbd></dt>
+<dd><p>DOS/VMS-style options too</p>
+</dd>
+</dl>
+</div>
+</div>
+<div class="section" id="literal-blocks">
+<h3>Literal blocks:<a class="headerlink" href="#literal-blocks" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><dl class="simple">
+<dt>if literal_block:</dt><dd><p>text = ‘is left as-is’
+spaces_and_linebreaks = ‘are preserved’
+markup_processing = None</p>
+</dd>
+</dl>
+</div></blockquote>
+</div>
+<div class="section" id="block-quotes">
+<h3>Block quotes:<a class="headerlink" href="#block-quotes" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><p>This theory, that is mine, is mine.</p>
+<p class="attribution">—Anne Elk (Miss)</p>
+</div></blockquote>
+</div>
+<div class="section" id="simple-table">
+<h3>Simple Table<a class="headerlink" href="#simple-table" title="Permalink to this headline">¶</a></h3>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Header row, column 1</p></th>
+<th class="head"><p>Header 2</p></th>
+<th class="head"><p>Header 3</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>body row 1, column 1</p></td>
+<td><p>column 2</p></td>
+<td><p>column 3</p></td>
+</tr>
+<tr class="row-odd"><td><p>body row 2</p></td>
+<td colspan="2"><p>Cells may span columns</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="citation">
+<h3>Citation<a class="headerlink" href="#citation" title="Permalink to this headline">¶</a></h3>
+<dl class="footnote brackets">
+<dt class="label" id="id5"><span class="brackets"><a class="fn-backref" href="#id3">1</a></span></dt>
+<dd><p>A footnote contains body elements, consistently
+indented by at least 3 spaces.</p>
+</dd>
+</dl>
+<dl class="citation">
+<dt class="label" id="cit2002"><span class="brackets"><a class="fn-backref" href="#id4">CIT2002</a></span></dt>
+<dd><p>Just like a footnote, except the label is
+textual.</p>
+</dd>
+</dl>
+<dl class="py function">
+<dt>
+<code class="sig-name descname">module=xml.xslt class=Processor</code></dt>
+<dd></dd></dl>
+
+<p id="example">The “_example” target above points to this paragraph.</p>
+</div>
+<div class="section" id="id6">
+<h3>Табела<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
 <p>Текст о гриду</p>
 </div>
-<div class="section" id="id4">
-<h3>Претрага<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id7">
+<h3>Претрага<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
 <p>Текст о претрази</p>
 </div>
 </div>
-<div class="section" id="id5">
-<h2>Детаљи<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id8">
+<h2>Детаљи<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h2>
 <p>Текст о детаљима</p>
-<div class="section" id="id6">
-<h3>Типови поља<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id9">
+<h3>Типови поља<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
 </div>
-<div class="section" id="id7">
-<h3>Унос<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id10">
+<h3>Унос<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h3>
 <p>Текст о уносу</p>
 </div>
-<div class="section" id="id8">
-<h3>Измена<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id11">
+<h3>Измена<a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h3>
 </div>
-<div class="section" id="id9">
-<h3>Описи поља<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id12">
+<h3>Описи поља<a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h3>
 </div>
 </div>
 </div>
