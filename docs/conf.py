@@ -133,6 +133,7 @@ htmlhelp_basename = 'mainDoc'
 
 latex_engine = 'pdflatex'
 latex_elements = {
+	'packages': r'usepackage{texlive-lang-cyrillic}',
     # The paper size ('letterpaper' or 'a4paper').
     #
     'papersize': 'a4paper',
