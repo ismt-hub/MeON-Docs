@@ -52,5 +52,4 @@ html_static_path = ['_static']
 
 master_doc = 'index'
 
-pdf_documents = [('index', u'MeON', u'MeON', u'ISMT'),]
-latex_engine = 'xelatex'
+latex_engine = 'platex'
