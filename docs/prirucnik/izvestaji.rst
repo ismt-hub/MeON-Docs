@@ -4,6 +4,10 @@
 Извештаји
 *********
 
+.. image:: ../_static/img/Izvestaji/izvestaji.png
+   :width: 600
+   :align: center
+
 Типови извештаја
 ================
 
