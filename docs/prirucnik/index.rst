@@ -7,7 +7,7 @@ MeON Приручник
    :maxdepth: 1
 
    navigacija
-   evidencija
+   registar
    kalendar
-   posta
    izvestaji
+   posta
