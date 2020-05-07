@@ -3,6 +3,12 @@
 ********
 Пошта
 ********
+
+-Уводни текст, Опис из презентације-
+
+-screenshot са обележеним интеракцијама + описи интеракција-
+
+
 .. image:: ../_static/img/Posta/posta.png
    :width: 600
    :align: center
@@ -33,6 +39,8 @@ screenshot sa obelezenim interakcijama + opisi interakcija
 
 Чет
 ---
+
+-Текст са примером-
 
 .. image:: ../_static/img/Posta/posta1.png
    :width: 600
