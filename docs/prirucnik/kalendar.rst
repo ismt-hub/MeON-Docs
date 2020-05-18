@@ -27,49 +27,50 @@
 
 У горњем левом углу кликом на "бирач датума", можете променити месец и годину и тиме добити одабрани приказ ставки у календару. 
 
+
 Постоји 5 различитих индикатора у бојама које можете видети на календару.
 
-.. image:: ../_static/img/Kalendar/kalendar6.png
-   :width: 200
-   :height: 25
-   :align: center
+.. image:: ../_static/img/Kalendar/kalendar12.png
+   :width: 25
+   :height: 25  
+   :align: left  
+   
+Датум који је у прошлости за било који ентитет осим за онај који је одабран у главном менију.
 
-Светло сива боја - датум који је у прошлости за било који ентитет осим за онај који је одабран у главном менију.
+.. image:: ../_static/img/Kalendar/kalendar13.png
+   :width: 25
+   :height: 25  
+   :align: left
 
-.. image:: ../_static/img/Kalendar/kalendar7.png
-   :width: 200
-   :height: 25
-   :align: center
+Датум које је у прошлости за одабрани ентитет у главном менију.
 
-Тамно сива боја - датум које је у прошлости за одабрани ентитет у главном менију.
+.. image:: ../_static/img/Kalendar/kalendar14.png
+   :width: 25
+   :height: 25 
+   :align: left
 
-.. image:: ../_static/img/Kalendar/kalendar8.png
-   :width: 200
-   :height: 25
-   :align: center
+Данашњи датум за било који ентитет осим за онај који је одабран у главном менију.
 
-Розе боја - данашњи датум за било који ентитет осим за онај који је одабран у главном менију.
+.. image:: ../_static/img/Kalendar/kalendar15.png
+   :width: 25
+   :height: 25  
+   :align: left  
 
-.. image:: ../_static/img/Kalendar/kalendar9.png
-   :width: 200
-   :height: 25
-   :align: center
+Данашњи датум за одабрани ентитет у главном менију.
 
-Црвена боја - данашњи датум за одабрани ентитет у главном менију.
+.. image:: ../_static/img/Kalendar/kalendar16.png
+   :width: 25
+   :height: 25  
+   :align: left 
 
-.. image:: ../_static/img/Kalendar/kalendar10.png
-   :width: 200
-   :height: 25
-   :align: center
+Датум који је у будућности за било који ентитет осим за онај који је одабран у главном менију.
 
-Светло бордо боја - датум који је у будућности за било који ентитет осим за онај који је одабран у главном менију.
+.. image:: ../_static/img/Kalendar/kalendar17.png
+   :width: 25
+   :height: 25  
+   :align: left  
 
-.. image:: ../_static/img/Kalendar/kalendar11.png
-   :width: 200
-   :height: 25
-   :align: center
-
-Tамно бродо боја - датум који је будућности за одабрани ентитет у главном менију.
+Датум који је будућности за одабрани ентитет у главном менију.
 
 
 
