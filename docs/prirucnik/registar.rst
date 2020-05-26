@@ -11,7 +11,7 @@
 Саставни део регистра представља и :ref:`Интерактивни наслов<breadcrumbs>` ...
 
 .. image:: ../_static/img/Evidencija/evidencija.png
-   :width: 600
+   :width: 700
    :align: center
 
 **Доњи мени**

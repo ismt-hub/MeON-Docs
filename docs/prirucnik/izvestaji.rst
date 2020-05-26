@@ -62,7 +62,7 @@
 ------------------------------
 
 .. image:: ../_static/img/Izvestaji/bar_izvestaj.png
-   :width: 600
+   :width: 700
    :align: center
 
 
@@ -74,7 +74,7 @@
 -------------------
 
 .. image:: ../_static/img/Izvestaji/tabela_izvestaj.png
-   :width: 600
+   :width: 700
    :align: center
 
 
@@ -91,7 +91,7 @@
 --------------------------
 
 .. image:: ../_static/img/Izvestaji/pita_izvestaj.png
-   :width: 600
+   :width: 700
    :align: center
 
 Пита графикон је тип извештаја који је најпогоднији за графички приказ једноставних извештаја на којима се приказује удео сваке од вредности.
@@ -104,7 +104,7 @@
 -----------------------
 
 .. image:: ../_static/img/Izvestaji/kpi_izvestaj.png
-   :width: 600
+   :width: 700
    :align: center
 
 Овај тип извештаја - КПИ (Key Performance Indicators) представља извештај у којем се ефикасно визуализују кључни показатељи перформанси. Компаније користе ове извештаје како би пратиле напредак пословања у односу на задате циљеве.
