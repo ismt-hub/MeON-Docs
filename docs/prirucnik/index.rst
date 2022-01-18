@@ -7,6 +7,7 @@
    :maxdepth: 1
 
    navigacija
+   kontrolna tabla
    registar
    kalendar
    izvestaji
